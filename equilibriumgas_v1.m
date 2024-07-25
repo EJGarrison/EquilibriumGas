@@ -1,9 +1,11 @@
 function flowstate = equilibriumgas(p,T)
     % Debugging and Info
     % equilibriumgas(p,T) uses the results from statistical mechanics to
-    % numerically solve for the properties of air at 
+    % numerically solve for the properties of air at the static temperature
+    % and pressure passed to it. Below are sample values (in Pa and K).
     %p = 101325*100;
     %T = 15000;
+    
     % Define Constants %
     % Constants are from Hansen (1958, NACA Technical Note 4359)
     % or are universal and taken from physics.nist.gov
